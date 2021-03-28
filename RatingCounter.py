@@ -1,4 +1,5 @@
 #Works with Mrjob 0.6.12
+#u.data should be given as parameter
 from mrjob.job import MRJob
 
 class MRRatingCounter(MRJob):
